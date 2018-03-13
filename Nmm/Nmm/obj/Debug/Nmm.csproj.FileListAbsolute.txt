@@ -71,3 +71,4 @@ C:\Users\parlinr\Desktop\cit218-nmm\Nmm\Nmm\obj\Debug\Nmm.dll
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm\Nmm\obj\Debug\Nmm.pdb
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm\Nmm\obj\Debug\Nmm.Migrations.InitialCreate.resources
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm\Nmm\obj\Debug\Nmm.csproj.GenerateResource.Cache
+C:\Users\parlinr\Desktop\cit218-nmm\Nmm\Nmm\bin\System.Data.SqlClient.dll

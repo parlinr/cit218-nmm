@@ -6,41 +6,43 @@ namespace Nmm.Migrations
     using System.Linq;
     using Nmm.Models;
 
+
     internal sealed class Configuration : DbMigrationsConfiguration<Nmm.Models.NMMDb_D1>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "Nmm.Models.NMMDb_D1";
         }
 
         protected override void Seed(Nmm.Models.NMMDb_D1 context)
         {
-            context.Breweries.AddOrUpdate(b => b.Name,
-                new Brewery
+            context.Breweries.AddOrUpdate(n => n.Name,
+                new Brewery()
                 {
                     Name = "Johnny's Hops",
                     Address = "123 Main St",
-                    City = "Suttons Bay",
-                    State = "MI",
-                    Zip = "49674"
-                },
-                new Brewery
-                {
-                    Name = "Billy's Brew",
-                    Address = "456 Center Dr",
                     City = "Empire",
                     State = "MI",
-                    Zip = "49666"
-
+                    Zip = "46952"
+                   
                 },
-                new Brewery
+                new Brewery()
                 {
-                    Name = "Suzy's Suds",
-                    Address = "789 2nd St",
-                    City = "Maple City",
+                    Name = "Billy's Brew",
+                    Address = "50 E. Center St.",
+                    City = "Cedar",
                     State = "MI",
-                    Zip = "49659"
+                    Zip = "49522"
+
+                   
+                },
+                new Brewery()
+                {
+                    Name = "Bobby's House of Beer",
+                    Address = "405 S. Division",
+                    City = "Traverse City",
+                    State = "MI",
+                    Zip = "49585"
                 }
 
                 );
