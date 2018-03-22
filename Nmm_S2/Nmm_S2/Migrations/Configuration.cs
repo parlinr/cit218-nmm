@@ -14,18 +14,24 @@ namespace Nmm_S2.Migrations
 
         protected override void Seed(Nmm_S2.Models.ApplicationDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            context.beers.AddOrUpdate(b => b.Name,
+                new Models.Beer()
+                {
+                    Name = "Ida's IPA",
+                    Type = Models.BeerType.IPA,
+                    ABV = 5.6,
+                    IBU = 20
+                },
+                new Models.Beer()
+                {
+                    Name = "Paul's Porter",
+                    Type = Models.BeerType.Porter,
+                    ABV = 4.6,
+                    IBU = 40
+                }
+                
+            );
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
         }
     }
 }

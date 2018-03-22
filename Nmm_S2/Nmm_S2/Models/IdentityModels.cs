@@ -16,12 +16,16 @@ namespace Nmm_S2.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public bool Active { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Nmm_S2", throwIfV1Schema: false)
         {
         }
 
@@ -29,5 +33,7 @@ namespace Nmm_S2.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Beer> beers { get; set; }
     }
 }

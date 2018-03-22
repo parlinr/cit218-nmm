@@ -69,3 +69,7 @@ C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.csprojResolve
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.csproj.CoreCompileInputs.cache
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.dll
 C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.pdb
+C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\bin\System.Data.SqlClient.dll
+C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.Migrations.beerModel.resources
+C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.csproj.GenerateResource.Cache
+C:\Users\parlinr\Desktop\cit218-nmm\Nmm_S2\Nmm_S2\obj\Debug\Nmm_S2.Migrations.userModel.resources
